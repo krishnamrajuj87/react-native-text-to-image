@@ -1,9 +1,14 @@
 {
-  "name": "react-native-text-to-image",
+  "name": "@baemingo/react-native-text-to-image",
   "title": "React Native Text to Image",
   "version": "1.0.4",
   "description": "get an image file from text",
   "main": "index.js",
+  "publishConfig": {
+    "access": "restricted",
+    "allow-same-version": false,
+    "git-tag-version": false
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
